@@ -17,9 +17,18 @@ p {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .header {
@@ -118,6 +127,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  padding-top: 68px;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -128,7 +141,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 68px;
 }
+
 .comcard-head {
   font-weight: 500;
   font-size: 20px;
