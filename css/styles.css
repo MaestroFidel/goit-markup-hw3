@@ -119,6 +119,7 @@ ul {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-header {
   line-height: 1.07;
@@ -129,7 +130,7 @@ ul {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  padding-top: 68px;
+
   margin-bottom: 48px;
   max-width: 496px;
 }
@@ -142,10 +143,26 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  display: flex;
+  display: block;
+  min-width: 169px;
   margin: 0 auto;
   margin-top: 48px;
-  margin-bottom: 68px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .comcard-head {
@@ -218,6 +235,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .about-par {
   font-weight: 400;
@@ -242,6 +260,7 @@ footer {
 }
 .ourteam-list {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 .team-index {
   padding-top: 32px;
@@ -253,16 +272,10 @@ footer {
 .port-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.port-row-first {
-  gap: 24px;
-  display: flex;
-  margin-bottom: 48px;
-}
-.port-row-second {
-  gap: 24px;
-  display: flex;
-}
+
 .portfol-item {
   width: calc((100% - 24px * 2) / 3);
 }
