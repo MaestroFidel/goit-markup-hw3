@@ -116,6 +116,7 @@ ul {
 .adress a:active {
   color: #404bbf;
 }
+
 .hero {
   background-color: #2e2f42;
 }
@@ -202,6 +203,15 @@ footer {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+
+.about-column {
+  width: calc((100% -24 * 3) / 4);
+}
+
 .about-head {
   font-weight: 500;
   font-size: 20px;
@@ -221,18 +231,66 @@ footer {
 }
 .ourteam-head {
   line-height: 1.11;
+  margin-bottom: 72px;
+}
+.comcard-head {
+  margin-bottom: 8px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .ourteam-list {
   background-color: #ffffff;
 }
+.team-index {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.our-port {
+  margin-bottom: 72px;
+}
+.port-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.port-row-first {
+  gap: 24px;
+  display: flex;
+  margin-bottom: 48px;
+}
+.port-row-second {
+  gap: 24px;
+  display: flex;
+}
+.portfol-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+.port-index {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+.portfolio-head {
+  margin-bottom: 8px;
+}
+
 .our-port {
   line-height: 1.11;
 }
 .logostud {
   color: #f4f4fd;
 }
+.logo-foot {
+  margin-bottom: 8px;
+}
 .foot-par {
   color: #f4f4fd;
+  max-width: 264px;
+}
+.text-foot {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .header-nav:hover {
   color: #404bbf;
