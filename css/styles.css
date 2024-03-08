@@ -280,9 +280,8 @@ footer {
   width: calc((100% - 24px * 2) / 3);
 }
 .port-index {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-head {
   margin-bottom: 8px;
@@ -295,16 +294,17 @@ footer {
   color: #f4f4fd;
 }
 .logo-foot {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .foot-par {
   color: #f4f4fd;
   max-width: 264px;
 }
-.text-foot {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.footer-container {
+  padding: 100px 0;
 }
+
 .header-nav:hover {
   color: #404bbf;
 }
